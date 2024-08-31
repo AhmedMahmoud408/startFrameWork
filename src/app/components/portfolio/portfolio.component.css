@@ -1,0 +1,16 @@
+.port-bg{
+    background-color: #1ABC9C;
+    opacity: 0;
+    transition: 1s opacity;
+    cursor: pointer;
+}
+
+.port-img:hover .port-bg{
+    opacity: 0.8;
+}
+.port-img{
+    cursor: pointer;
+}
+.slider img {
+    width: 500px;
+}

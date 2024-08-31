@@ -1,0 +1,27 @@
+<div class="  ">
+    <div class="mx-auto container text-center  ">
+        <h1 class="text-uppercase fs-1 fw-bolder head-clr pt-5"> conatct section</h1>
+        <div>
+            <div class="d-inline-flex justify-content-between align-items-center mb-3 ">
+                <div
+                 class="line  nav-bg-clr me-4"></div>
+                <i class="fa-solid fa-star head-clr"></i>
+                <div class="line nav-bg-clr ms-4"></div>
+            </div>
+        </div>
+    </div>
+    <form action="" class="w-50 mx-auto">
+        <label for="userName" class="my-2 position-relative labelClr top-0 " [class.top-40]="!userName.length" > UserName </label>
+        <input type="text" placeholder="userName" name="userName" id="userName" [(ngModel)]="userName" class="form-control shadow-none position-relative my-2 border-top-0 border-start-0 border-end-0">
+        <label for="userAge" class="my-2 position-relative labelClr top-0 " [class.top-40]="!userAge.length" > UserAge </label>
+        <input type="number" placeholder="userAge" name="userAge" id="userAge" [(ngModel)]="userAge" class="form-control shadow-none position-relative my-2 border-top-0 border-start-0 border-end-0">
+        <label for="userEmail" class="my-2 position-relative labelClr top-0 " [class.top-40]="!userEmail.length" > UserEmail </label>
+        <input type="email" placeholder="userEmail" name="userEmail" id="userEmail" [(ngModel)]="userEmail" class="form-control shadow-none position-relative my-2 border-top-0 border-start-0 border-end-0">
+        <label for="userPassword" class="my-2 position-relative labelClr top-0 " [class.top-40]="!userPassword.length" > UserPassword </label>
+        <input type="text" placeholder="userPassword" name="userPassword" id="userPassword" [(ngModel)]="userPassword" class="form-control shadow-none position-relative my-2 border-top-0 border-start-0 border-end-0">
+
+        <button class="btn btn-success my-5">Send Message</button>
+
+    </form>
+
+</div>

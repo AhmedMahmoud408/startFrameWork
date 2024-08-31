@@ -1,0 +1,9 @@
+.top-40{
+    top: 40px !important ;
+}
+.form-control:focus{
+    border-color: gray;
+}
+label{
+    transition: all 0.5s;
+}

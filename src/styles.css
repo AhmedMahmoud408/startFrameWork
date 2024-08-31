@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+.pt-100{
+    padding-top: 90px;
+}
+
+.labelClr{
+    color: #1ABC9C;
+}
+.main-clr{
+    background-color: #1ABC9C;
+}
+.nav-bg-clr{
+    background-color: #2C3E50;
+}
+.head-clr{
+    color:#2C3E50 ;
+}
+.line{
+    height: 4px;
+    width: 80px;
+    
+}
+.line-bg{
+    background-color: white;
+}

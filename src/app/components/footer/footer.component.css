@@ -1,0 +1,9 @@
+ul li {
+    border: solid 2px white;
+    width: 30px ;
+    height: 30px;
+    border-radius: 50%;
+}
+.Copyright{
+    background-color: #1A252F;
+}

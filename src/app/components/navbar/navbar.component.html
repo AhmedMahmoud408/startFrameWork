@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg nav-bg-clr fixed-top " [class.p-4]="!scroll">
+    <div class="container ">
+      <a class="navbar-brand text-uppercase text-white fs-3 fw-bolder" [routerLink]="['/home']" routerLinkActive="router-link-active">Start Framework</a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item mx-1 ">
+            <a class="nav-link text-white fw-bolder d-inline-block p-2" [routerLink]="['/about']" routerLinkActive="main-clr rounded-3" >ABOUT</a>
+          </li>
+          <li class="nav-item mx-1"  >
+            <a class="nav-link text-white fw-bolder d-inline-block p-2"[routerLink]="['/portfolio']" routerLinkActive="main-clr rounded-3" >PORTFOLIO</a>
+          </li>
+          <li class="nav-item mx-1">
+            <a class="nav-link text-white fw-bolder d-inline-block p-2" [routerLink]="['/contact']" routerLinkActive="main-clr rounded-3" >CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
